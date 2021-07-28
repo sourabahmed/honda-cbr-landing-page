@@ -2,3 +2,28 @@
 .honda-background{
     background-color: #264653;
 }
+.gray-scale img{
+    filter: grayscale(100);
+}
+.gray-scale img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transition: .5s;
+}
+.gray-scale-2 img{
+    filter: grayscale(0);
+}
+.gray-scale-2 img:hover{
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: .5s;
+}
+.image-height{
+    height: 149px;
+    width: 149px;
+}
+.extra-info a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
