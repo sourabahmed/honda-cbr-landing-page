@@ -1,4 +1,9 @@
-/* header section style */
+.common-color{
+    color: #E76F51;
+}
+.common-bg{
+    background-color: #E76F51;
+}
 .honda-background{
     background-color: #264653;
 }
